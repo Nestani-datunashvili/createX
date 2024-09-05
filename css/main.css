@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #ff5a30;
+  --secondary: #424551;
+  --secondary-light: #787a80;
+  --secondary-dark: #1e212c;
+  --light: #ffffff;
+  --secondary-light: #9a9ca5;
+  --bg-color: #f4f5f6;
+  --card--title: #d7dadd;
+}
+
+body {
+  max-width: 1920px;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+
+h1 {
+  margin: 40px 0 24px 0;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 93.6px;
+  letter-spacing: 1px;
+  color: var(--secondary-dark);
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 59.8px;
+  color: var(--secondary-dark);
+  margin-bottom: 60px;
+}
+
+h3 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 59.8px;
+  color: var(--secondary-dark);
+}
+
+.btn {
+  height: 52px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+.btn_secondary {
+  height: 36px;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.section {
+  /* padding: 0 345px; */
+  padding: 0 150px;
+  height: fit-content;
+}
+
+span {
+  display: block;
+}

@@ -1,0 +1,43 @@
+.first {
+  /* width: 1400px; */
+  height: 600px;
+  position: relative;
+  background-color: var(--bg-color);
+}
+
+.bg {
+  position: absolute;
+  right: 0;
+}
+
+.first_content {
+  margin: 80px 0 115px 0;
+}
+
+.first_content div {
+  display: flex;
+  gap: 22px;
+}
+
+.first_content div div {
+  color: var(--secondary);
+}
+
+.first_content--text {
+  color: var(--secondary-light);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.slash {
+  position: relative;
+}
+
+.slash::after {
+  content: "/";
+  position: absolute;
+  right: -14px;
+  font-size: 14px;
+  color: var(--secondary-light);
+}
