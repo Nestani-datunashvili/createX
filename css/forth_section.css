@@ -1,0 +1,75 @@
+.forth_section {
+  height: 591px;
+  background-color: var(--secondary-dark);
+  padding: 80px 0 126px 0;
+  position: relative;
+}
+
+.forth_section--text {
+  color: var(--secondary-light);
+  text-align: center;
+  margin: 24px 0 60px 0;
+}
+
+.title {
+  color: var(--light);
+  text-align: center;
+}
+
+/* card */
+
+.forth_section--container {
+  display: flex;
+  gap: 188px;
+  justify-content: center;
+}
+
+.forth_section--card {
+  text-align: center;
+  width: 285px;
+  height: 188px;
+}
+.divider {
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: url(/assets/icon-box/divider.png);
+  position: absolute;
+  top: 0;
+}
+
+.divider::before {
+  right: 360px;
+}
+
+.divider::after {
+  left: 360px;
+}
+
+.forth_section--card--title {
+  color: var(--light);
+  margin: 24px 0 8px 0;
+}
+
+.forth_section--card--text {
+  color: var(--secondary-light);
+  line-height: 25.6px;
+  text-align: center;
+  width: 285px;
+}
+
+.forth_section--button {
+  padding: 0px 112px 0px 112px;
+  line-height: 52px;
+  color: var(--light);
+  background-color: var(--primary);
+  border: none;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  position: absolute;
+  bottom: -20px;
+  left: 38%;
+}

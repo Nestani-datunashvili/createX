@@ -1,0 +1,108 @@
+.fifth_section {
+  padding: 155px 150px 180px 150px;
+  background-color: var(--bg-color);
+}
+
+.fifth_section--title {
+  color: var(--secondary-dark);
+  font-size: 46px;
+  line-height: 59.8px;
+  margin-bottom: 60px;
+}
+
+/* card */
+
+.fifth_section--card--container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.fifth_section--card {
+  width: 390px;
+  height: 440px;
+  position: relative;
+  cursor: pointer;
+}
+
+.fifth_section--card--img {
+  width: 390px;
+  height: 345px;
+}
+
+.fifth_section--card--img img {
+  width: 100%;
+  height: 100%;
+}
+
+.fifth_section--card--content {
+  height: 95px;
+  width: 390px;
+  background-color: var(--light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: transform 1s ease-out, height 1s ease-out;
+}
+
+.fifth_section--card--content:hover {
+  transform: translateY(-68px);
+  height: 168px;
+  background-color: var(--light);
+}
+
+.fifth_section--card--content:hover .fifth_section--content--button {
+  display: flex;
+}
+
+.fifth_section--content--title {
+  color: var(--secondary-dark);
+  text-align: center;
+  padding: 16px 0 4px 0;
+  line-height: 30px;
+}
+
+.fifth_section--content--text {
+  color: var(--secondary-light);
+  text-align: center;
+  line-height: 21px;
+  font-size: 14px;
+}
+
+.fifth_section--content--button {
+  display: none;
+  background-color: var(--light);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 0px 32px 0px 32px;
+  line-height: 44px;
+  border-radius: 4px;
+  margin: 24px 0;
+  transition: display 0.3s ease;
+}
+
+/* ------ */
+
+.fifth_section--second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 85px 0 180px 0;
+}
+
+.fifth_section--second--title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  color: var(--secondary-dark);
+}
+
+.fifth_section--btn {
+  padding: 0px 40px 0px 40px;
+  line-height: 52px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
