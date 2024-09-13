@@ -1,0 +1,50 @@
+footer {
+  background-color: var(--secondary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  padding: 80px 0;
+  align-items: center;
+}
+
+.social_container {
+  display: flex;
+  margin-left: 80px;
+  gap: 16px;
+}
+
+.socials {
+  width: 20px;
+  height: 20px;
+}
+
+.footer_input {
+  width: 495px;
+  height: 44px;
+  padding: 12px 16px;
+  background-color: var(--light);
+  opacity: 20%;
+  border-radius: 4px;
+  border: 1px solid var(--light);
+}
+
+form {
+  position: relative;
+  width: 495px;
+  height: 44px;
+  /* margin-left: 349px; */
+}
+
+.footer_btn {
+  width: 131px;
+  height: 44px;
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}

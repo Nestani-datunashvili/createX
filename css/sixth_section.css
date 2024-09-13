@@ -1,0 +1,70 @@
+.sixth_section {
+  background-color: var(--bg-color);
+}
+
+.sixth_section--title {
+  text-align: center;
+}
+
+.sixth_section--text {
+  margin: 24px 0 60px 0;
+  text-align: center;
+  color: var(--secondary-light);
+}
+
+.table_conteiner {
+  max-width: 1230px;
+  height: 633px;
+}
+
+table {
+  width: 100%;
+  border: 1px solid var(--light);
+}
+
+.tick {
+  padding: 16px 0 16px 0;
+  text-align: center;
+}
+
+.white {
+  background-color: #fff;
+}
+
+th {
+  padding: 24px 0;
+}
+
+tr {
+  position: relative;
+}
+
+.item {
+  position: absolute;
+  left: 24px;
+}
+
+td {
+  padding: 16px 24px;
+}
+
+.table-btn {
+  padding: 0px 24px 0px 24px;
+  border-radius: 4px;
+  line-height: 36px;
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.company_title {
+  text-align: center;
+}
+
+.company_img {
+  display: flex;
+  gap: 73px;
+  justify-content: center;
+  margin-top: 60px;
+  padding-bottom: 120px;
+}
